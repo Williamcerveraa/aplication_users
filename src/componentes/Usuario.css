@@ -1,0 +1,81 @@
+.contenedor_usuario{
+    
+    max-width: 1200px;
+    padding: 20px 18px;
+    border-radius: 12px;
+    display: grid;
+}
+.contenedor_usuario_dos{
+    background-color: var(--cuadros-background);
+    max-width: 100%;
+    min-height: 415px;
+    margin: 5px 5px;
+    padding: 10px 18px;
+    border-radius: 15px;
+    display: block;
+    border: 5px var(--cuadros-background) solid;
+}
+.foto_usuario{
+    border-radius: 12px;
+    margin: auto;
+    display: block;
+    box-shadow: 10px 10px 10px #ccc;
+    height: 220px;
+}
+.detalles_usuarios{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    width: 100%;
+}
+.nombre_usuario{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+.contenedor_correo{
+    color: white;
+    background-color: #fd4648;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 3px 2px;
+}
+.contenedor_ciudad{
+    margin-top: 5px;
+    color: white;
+    background-color: #efc84a;
+    border-radius: 10px;
+    padding: 3px 2px;
+}
+.contenedor_compania{
+    margin-top: 5px;
+    color: white;
+    background-color: #25b7d3;
+    border-radius: 10px;
+    padding: 3px 2px;
+}
+
+
+@media (min-width:768px){
+    .contenedor_usuario{
+       grid-template-columns: repeat(1,1fr);
+    }
+   
+    
+}
+@media (min-width:480px){
+    .contenedor_usuario{
+       grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+@media (min-width:992px){
+    .contenedor_usuario{
+       grid-template-columns: repeat(3,1fr);
+    }
+    
+}
+
+

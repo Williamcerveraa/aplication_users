@@ -1,0 +1,19 @@
+body{
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --primario: #D93636;
+    --secundario: #D93240;
+    --white: #fff;
+    --cuadros-background: #f2f2f0;
+    --texto: #403f37;
+    --contenedor: #BFBFBF;
+  }
