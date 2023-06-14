@@ -1,5 +1,4 @@
 .contenedor_usuario{
-    
     max-width: 1200px;
     padding: 20px 18px;
     border-radius: 12px;
@@ -14,6 +13,7 @@
     border-radius: 15px;
     display: block;
     border: 5px var(--cuadros-background) solid;
+    box-shadow: 10px 10px 10px #ccc;
 }
 .foto_usuario{
     border-radius: 12px;
