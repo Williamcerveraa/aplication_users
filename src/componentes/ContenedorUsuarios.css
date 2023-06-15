@@ -21,7 +21,6 @@
 .contenedor_cabecera{
     max-width: 100%;
     margin: auto;
- 
     background-color: var(--cuadros-background);
 }
 .navegacion a{
